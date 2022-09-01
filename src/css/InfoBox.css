@@ -1,0 +1,34 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox__cardContent {
+  background-color: #ced7e0;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox__cases {
+  color: rgb(0, 71, 171);
+}
+
+.infoBox__deaths {
+  color: red;
+}
+
+.infoBox__recovered {
+  color: green;
+}
+
+.infoBox--selected_cases {
+  border-top: 8px solid rgb(0, 71, 171);
+}
+.infoBox--selected_recovered {
+  border-top: 8px solid green;
+}
+.infoBox--selected_deaths {
+  border-top: 8px solid red;
+}

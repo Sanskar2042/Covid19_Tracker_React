@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-image: url("https://images.ctfassets.net/k428n7s2pxlu/2zhzAB05UQeuMgaK6sCCkG/a5044d3ac1671b0abd8affad1bb7684f/blog-post-blog-immutable-stateless-react-components.jpg");
+  height: 100vh;
+  object-fit: contain;
+  z-index: -1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app__header h1 {
+  color: #ced7e0;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__header {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  color: white;
+}
+
+.app__right {
+  margin-top: 10px;
+  height: 96vh;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
